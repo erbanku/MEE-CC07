@@ -1,0 +1,24 @@
+# 学习到的软件
+
++ GIT
+
+  Gittee/github相当于把git的一些命令直接封装到了网页中（一些功能）
+
++ python
+
+  安装anaconda
+
++ latex
+
+  编译数学公式
+
++ markdown（typora)
+
+  可采用markdown pad2/typora，采用非常方便的语法来实现排版，插入代码/制作表格/插入图片等操作
+
++ jupyter
+  可以在线编译python语言，课开出多个cell，可同时编译多个cell的代码
+
+# 收获
+
++ 初步学习到了一些软件的使用，为之后代码或者工程的创建与管理提供了遍历

@@ -35,10 +35,14 @@ Setup has finished installing XAMPP on your computer.
 >   </body>
 > 
 >    </html>
+```
+##### 包含元素的html文件
+[示例文件链接](http://http://101.6.160.22:1780/cc07/examples/1base.html)
+    请注意图片的表示方法，图片链接和图片文件正确对应才能显示，其它类似。请更改文件内容，使符合你的设计。包括文字、图片、链接等。
 #### 删除xampp软件执行以下命令
     sudo /opt/lampp/uninstall
 
 
 
 
-```
+

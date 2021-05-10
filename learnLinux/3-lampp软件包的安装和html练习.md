@@ -22,17 +22,23 @@ Setup has finished installing XAMPP on your computer.
     /opt/lampp/htdocs  是网站根目录，试着更改index.php 文件（删除index.php 从其他地方找个html文件，改名为index.html)
 #### html文件
 ##### 基本html文件
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>文档的标题</title>
-  </head>
+  
 
-  <body>
-  文档的内容......
-  </body>
-
-   </html>
+> <!DOCTYPE html>
+>   <html>
+>   <head>
+>   <title>文档的标题</title>
+>   </head>
+> 
+>   <body>
+>   文档的内容......
+>   </body>
+> 
+>    </html>
 #### 删除xampp软件执行以下命令
     sudo /opt/lampp/uninstall
 
+
+```
+The code
+```

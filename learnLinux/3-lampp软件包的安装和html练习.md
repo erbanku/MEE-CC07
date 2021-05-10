@@ -22,24 +22,36 @@ Setup has finished installing XAMPP on your computer.
     /opt/lampp/htdocs  是网站根目录，试着更改index.php 文件（删除index.php 从其他地方找个html文件，改名为index.html)
 #### html文件
 ##### 基本html文件
+
+浏览器打开下面链接，然后按F12显示网页源代码。对比浏览器显示内容和源代码内容。
+
+[http://101.6.160.22:1780/cc07/examples/0mini.html](http://101.6.160.22:1780/cc07/examples/0mini.html)
 ```  
 
-> <!DOCTYPE html>
->   <html>
->   <head>
->   <title>文档的标题</title>
->   </head>
-> 
->   <body>
->   文档的内容......
->   </body>
-> 
->    </html>
+ <!DOCTYPE html>
+   <html>
+   <head>
+   <title>文档的标题</title>
+   </head>
+ 
+   <body>
+   文档的内容......
+   </body>
+ 
+    </html>
 ```
 ##### 包含元素的html文件
 [示例文件链接http://101.6.160.22:1780/cc07/examples/1base.html](http://101.6.160.22:1780/cc07/examples/1base.html)
 
     请注意图片的表示方法，图片链接和图片文件正确对应才能显示，其它类似。请更改文件内容，使符合你的设计。包括文字、图片、链接等。
+    
+    获取html文件，使用下面命令从服务器拷贝html文件
+    
+    scp vr@10.0.1.17:/www/cc07/examples/1base.html /opt/lampp/htdocs
+
+    cd /opt/lampp/htdocs    (进入目录，如果已经在此目录下可以跳过此命令）
+   
+    cp 1base.html index.html   (如果/opt/lampp/htdocs下面有 index.html文件，那么会报错，可以用  rm -rf . 命令删除目录下所有文件）
 
 #### 删除xampp软件执行以下命令
     sudo /opt/lampp/uninstall

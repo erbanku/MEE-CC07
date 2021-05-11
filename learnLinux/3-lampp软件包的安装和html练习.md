@@ -20,7 +20,8 @@ Setup has finished installing XAMPP on your computer.
     cd /opt/lampp
     ./ctlscript.sh stop  //停止， 启动为start ，重启为restart 
     /opt/lampp/htdocs  是网站根目录，试着更改index.php 文件（删除index.php 从其他地方找个html文件，改名为index.html)
-#### html文件
+####web服务会从网站根目录/opt/lampp/htdocs下查找index.html文件，如果有则会传送给客户端，并通过浏览器显示
+#### html文件  html，是用来描述网页的一种语言，也是一种标记语言（markdown）。
 ##### 基本html文件
 
 浏览器打开下面链接，然后按F12显示网页源代码。对比浏览器显示内容和源代码内容。

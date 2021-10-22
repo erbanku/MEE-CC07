@@ -20,7 +20,7 @@ pwd           //确认当前目录
 ls         //查看当前目录
 ls  test    //查看当前目录下test目录
 rm –r test    //删除刚建的目录test  （rm –rf test 是删除test目录及子目录）
-scp  vr@101.6.160.22:/www/cc07/examples/0mini.html  example.html -p1722 //拷贝实例文件
+scp -P1722 vr@101.6.160.22:/www/cc07/examples/0mini.html  example.html  //拷贝实例文件
 cp  example.html    base.html     //同目录拷贝文件
 mv example.html  aa11.html      //移动文件，或改名
 touch  myfile                  //创建文件myfile

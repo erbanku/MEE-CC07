@@ -11,7 +11,7 @@ cd /home           //进入home目录
 ls                 //查看当前目录
 cd ~               //进入个人目录（/home/pi）
 ls                 //查看当前目录，也许有文件，也许没有
-rm -fr *           //删除当前目录下所以文件 ，此处为了删除以前同学的练习文件，其他时候慎用此命令
+rm -fr *    （知道就行，不要使用）       //删除当前目录下所以文件 ，此处为了删除以前同学的练习文件，其他时候慎用此命令
 mkdir test         //在当前目录创建test目录，此目录名test随意，底下要同步更改
 cd test           //进入test目录，或者你新建的目录
 pwd               //查看当前目录，比较与开始的不同显示结果
@@ -20,7 +20,7 @@ pwd           //确认当前目录
 ls         //查看当前目录
 ls  test    //查看当前目录下test目录
 rm –r test    //删除刚建的目录test  （rm –rf test 是删除test目录及子目录）
-scp -P1722 vr@101.6.160.22:/www/cc07/examples/0mini.html  example.html  //拷贝实例文件
+scp -P1722 vr@101.6.160.22:/www/cc07/examples/0mini.html  example.html  //拷贝实例文件,中间会需要输入密码：Vr123456
 cp  example.html    base.html     //同目录拷贝文件
 mv example.html  aa11.html      //移动文件，或改名
 touch  myfile                  //创建文件myfile
